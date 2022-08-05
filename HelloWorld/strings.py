@@ -26,5 +26,14 @@ print(name +  " is " + age +  " years old")
 print(type(greeting))
 print('This is the new age type', type(age))
 
+age = 27
 
+print("i am {0} years old".format(age))
 
+for i in range(1, 10):
+    print("No {0} is {1} squared, and {2} cubed.".format(i, i ** 2, i ** 3))
+    
+print(f"Jimmie is {age} years old")
+
+for i in range(1,10):
+    print(f"number {i} is {i ** 2}, and {i **3} is {i} cubed")
