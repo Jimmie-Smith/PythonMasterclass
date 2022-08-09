@@ -1,6 +1,6 @@
-'''
-How to find the sum of digits of an integer using recursion
-'''
+# '''
+# How to find the sum of digits of an integer using recursion
+# '''
 
 def getSumDigits(n):
     assert n >= 0 and int(n) == n, f"{n} is not a positive integer" # cover any unintended cases. In this case we check for negative numbers
